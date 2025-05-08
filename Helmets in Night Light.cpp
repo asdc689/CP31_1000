@@ -4,7 +4,7 @@ using namespace std;
 #define int long long
 #define yes cout << "yes\n"
 #define no cout << "no\n"
-#define neg1 cout << "-1\n"
+#define m1 cout << "-1\n"
 #define endl "\n"
 #define vi vector<int>
 #define vpi vector<pair<int, int>>
