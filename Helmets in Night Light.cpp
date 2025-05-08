@@ -44,8 +44,6 @@ signed main() {
         vi a(n), b(n);
         input(a); input(b);
         
-        // i can do one thing, I can use a priority queue on the basis of the cost and that will help to segreagte which of the villagers must be chosen, and if the villagers will not be possible to choose then I'll choose pak chanek himself to relay the message to the left over villagers.
-        
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         for (int i = 0; i < n; i++) {
             pq.push({b[i], a[i]});
